@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 app.get('/github-webhook/hello' , (req,res) =>
 {
-    res.status(200).json({ message: "Hello, world from webhook git retrotale" });
+    res.status(200).json({ message: "Hello, world from webhook git retrotale !!" });
 }
 );
 app.post('/github-webhook', (req, res) => {
