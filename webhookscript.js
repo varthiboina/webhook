@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 
-app.get('/github-webhook/hello' , (req,res) =>
+app.get('/github-webhook/hello!!' , (req,res) =>
 {
     res.status(200).json({ message: "Hello, world from webhook git retrotale" });
 }
